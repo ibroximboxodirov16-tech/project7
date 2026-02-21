@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* space */
+
+div h1{
+    color: red;
+}
+
+/* > */
+
+main > p{
+    color: blue;
+}
+
+/* + */
+
+section h1 + p{
+    color: gold;
+}
+
+/* ~ */
+
+footer p ~ h1{
+    color: green;
+}
+
+/* max-width berilgan qiymatdan oshmaydi lekin kamayishi mumkin  */
+.max{
+    max-width: 800px;
+    height: 40px;
+    background: blue;
+}
+
+/* min-width berilgan qiymatdan kamaymaydi lekin oshib ketishi mumkin  */
+.max{
+    margin-top: 40px;
+
+    min-width: 800px;
+    height: 40px;
+    background: red;
+}
+
+/* block element inlainga xolatiga keltirish */
+.blocke{
+    height: 40px;
+    background: green;
+
+    display: inline;
+
+    width: 500px;
+    height: 700px;
+}
+
+/* inlain element block xolatiga keltirish */
+.inlain{
+    height: 50px;
+    margin-top: 20px;
+    background: hotpink;
+
+    display: block;
+
+}
+
+/* inlain elementni inlain ligicha width height qabul qilish */
+.blocke{
+    background: darkblue;
+    margin-top: 20px;
+
+    display: inline-block;
+
+    width: 500px;
+    height: 200px;
+}
